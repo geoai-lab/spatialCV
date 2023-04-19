@@ -10,7 +10,7 @@ This repository contains the code and data for implementing random CV approach a
 <br />
 
 <p align="center">
-<img align="center" src="fig/interpolation&extrapolation.png" width="600" />
+<img align="center" src="Fig/interpolation&extrapolation.png" width="600" />
 <br />
 Figure 1. An illustration of two common situations under which machine learning models are applied to geographic data: (a) within-area prediction or interpolation; (b) between-area prediction or extrapolation.
 </p>
@@ -18,7 +18,7 @@ Figure 1. An illustration of two common situations under which machine learning 
 <br />
 <br />
 <p align="center">
-<img align="center" src="fig/Chicago_splitting.png" width="600" />
+<img align="center" src="Fig/Chicago_splitting.png" width="600" />
 <br />
 Figure 2. Data splitting results for CBGs in Chicago: (a) random CV; (b) clustering-based spatial CV; (c) grid-based spatial CV; (d) geo-attribute-based spatial CV; (e) spatial leave-one-out CV.
 </p>
@@ -27,7 +27,7 @@ Figure 2. Data splitting results for CBGs in Chicago: (a) random CV; (b) cluster
 <br />
 <br />
 <p align="center">
-<img align="center" src="fig/NYC_splitting.png" width="600" />
+<img align="center" src="Fig/NYC_splitting.png" width="600" />
 <br />
 Figure 3. Data splitting results for census tracts in NYC: (a) random CV; (b) clustering-based spatial CV; (c) grid-based spatial CV; (d) geo-attribute-based spatial CV; (e) spatial leave-one-out CV.
 </p>
