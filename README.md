@@ -39,3 +39,7 @@ Figure 3. Data splitting results for census tracts in NYC: (a) random CV; (b) cl
 
 * The folder "Code" contains the code used for implementing the two examples to demonstrate the random CV approach and four spatial CV approaches.
 * The folder "Data" contains the experimental data for the two examples including domestic violence data, obesity rate data, and shapefile data used for spatial components.
+<br />
+
+### Technical issue
+We use the spacv library to implement both grid-based spatial CV and spatial leave-one-out CV. However, the two functions in this library cannot work at the same time. There is one line code "train_excluded = np.concatenate([test_indices, train_excluded])" in the Python file "base_classes.py" to divide the training and validation samples. When you use spatial leave-one-out CV, samples within the buffer zone around the validation sample are regarded as "train_excluded". This line of code will basically combine the test samples and the train excluded samples, and it can run without any error. However, when you use grid-based spatial CV, and you set the buffer_radius as 0 (i.e., there is no a buffer zone around the validation samples), there will be an error when running the code. This is because that there is no any samples as "train_excluded". Therefore, you have to manually revise this line to "train_excluded = test_indices". Then the code will run smoothly. If your buffer_radius is not 0 for grid-based spatial CV, you do not need to do anything, and the code can run correctly. 
