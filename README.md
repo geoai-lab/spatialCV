@@ -49,6 +49,7 @@ We use the *spacv* library to implement both grid-based spatial CV and spatial l
   - If you use spatial leave-one-out CV or you use grid-based spatial CV with the buffer_radius larger than 0, you do not need to revise the code and just use "train_excluded = np.concatenate([test_indices, train_excluded])".
 <br />
 <br />
+
 ### Creating and using a virtual environment  
 
 With Anaconda:  
