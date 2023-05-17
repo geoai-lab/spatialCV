@@ -52,7 +52,13 @@ We use the *spacv* library to implement both grid-based spatial CV and spatial l
 
 ### Creating and using a virtual environment  
 
+With pip:  
+
+- pip install -r requirements.txt
+
 With Anaconda:  
 
-- conda create --name <name_of_your_enviornment> --file requirements.txt
+- conda env create -f environment.yml
+
+
 
