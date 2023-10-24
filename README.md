@@ -48,7 +48,7 @@ We use the *spacv* library to implement both grid-based spatial CV and spatial l
   - If you use grid-based spatial CV with the buffer_radius set as 0, you will need to modify this line code to "train_excluded = test_indices". Note that you also need to restart the kernel to make the code effective.<br />
   - If you use spatial leave-one-out CV or you use grid-based spatial CV with the buffer_radius larger than 0, you do not need to revise the code and just use "train_excluded = np.concatenate([test_indices, train_excluded])".
 <br />
-<br />
+
 
 
 
@@ -59,13 +59,14 @@ With pip:
 
 With Anaconda:  
 - conda env create -f environment.yml
+<br />
 
 
 ### Reference
 If you use the data or code from this repository, we will really appreciate if you can cite our book chapter:
 ```
 Sun, K., Hu, Y., Lakhanpal, G., & Zhou, R.Z. (2023): Spatial cross-validation for GeoAI,
-In S. Gao, Y. Hu, and W. Li (Eds), Handbook of Geospatial Artificial Intelligence,
+In: S. Gao, Y. Hu, and W. Li (Eds), Handbook of Geospatial Artificial Intelligence,
 Taylor & Francis Group. https://www.taylorfrancis.com/books/edit/10.1201/9781003308423 
 ```
 
