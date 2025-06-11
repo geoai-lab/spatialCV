@@ -65,6 +65,6 @@ With Anaconda:
 ### Reference
 If you use the data or code from this repository, we will really appreciate if you can cite our book chapter:
 
-Sun, K., Hu, Y., Lakhanpal, G., & Zhou, R.Z. (2023): Spatial cross-validation for GeoAI, In: S. Gao, Y. Hu, and W. Li (Eds), Handbook of Geospatial Artificial Intelligence, Taylor & Francis Group. https://www.taylorfrancis.com/books/edit/10.1201/9781003308423 
+Sun, K., Hu, Y., Lakhanpal, G., & Zhou, R.Z. (2023): [Spatial cross-validation for GeoAI](https://www.acsu.buffalo.edu/~yhu42/papers/2023_GeoAIHandbook_SpatialCV.pdf), In: S. Gao, Y. Hu, and W. Li (Eds), Handbook of Geospatial Artificial Intelligence, Taylor & Francis Group. https://www.taylorfrancis.com/books/edit/10.1201/9781003308423 
 
 
